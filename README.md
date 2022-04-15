@@ -1,5 +1,7 @@
 # Hackathon #2: NFT Sales Bot
 
+![hackathon2](https://user-images.githubusercontent.com/2725836/163633528-a3ccf108-3efd-434b-91cc-ff47d1f5ad3c.png)
+
 **Topic:** Open Source Package for cross platform tracking of NFT Sales.
 
 **Reward Pool: 1.5 ETH & 3 Scapes**
