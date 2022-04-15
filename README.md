@@ -42,13 +42,14 @@ Why not circumvent all of this and build a sales bot that watches `Transfer`-Eve
 3. The app *should* integrate with Twitter and post a notification tweet for each sale. The app *may* also integrate with other platforms like Telegram.
 4. The app *has to* work with `ERC721` token contracts and *may* also be compatible with `ERC1155` token contracts.
 5. The app *has to* extract ETH value behind transfers and correctly report it. It also *should* track WETH transfers and *may* track other arbitrary tokens transferred.
-6. There must be easy to follow documentation for other developers on how to configure and deploy the bot to a server.
+6. There *must* be easy to follow documentation for other developers on how to configure and deploy the bot to a server.
 7. You have to hold a OneDayPunk to take part in the hackathon. They are currently available for ~30$ on [OpenSea](https://opensea.io/collection/onedaypunks). If you would like to take part but economically can't afford to right now, please reach out to jalil#1001 on [Discord](https://discord.gg/Se9V2B4VEZ) and we'll figure something out.
 
 ## Technical Details
 
 - All modern NFTs implement either the `ERC721` or the `ERC1155` token standard. All token transfers are kept track of via a `Transfer` event emitted by the contract whenever an token changes hands.
 - In the case of sales, the Transactions emitting these Events also contain a message `value`, which corresponds to the ETH transferred during the transaction – normally the price of the NFT. Of course there are edge cases when a single transaction contains transfers for multiple tokens or tokens aren't purchased with pure ETH but for example WETH.
+- The bot should be able to take in a starting `block` (Ethereum Block), to report on historical sales data.
 - You can use a library like [Ethers JS](https://docs.ethers.io/v5) to watch transfers. You will also need a JSON-RPC Provider – easiest is via an account with [Alchemy](https://www.alchemy.com/) or [Infura](https://infura.io/).
 
 ## Sponsors
