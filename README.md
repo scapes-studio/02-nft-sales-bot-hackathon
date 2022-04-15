@@ -11,7 +11,7 @@
 All three winning projects will get one scape.
 </small>
 
-**Deadline: Sunday, 24th of April; 24:00 ET**
+**Deadline: Saturday, 30th of April; 24:00 ET**
 
 ## Intro
 
@@ -30,7 +30,7 @@ Why not circumvent all of this and build a sales bot that watches `Transfer`-Eve
   3. integrates with the Twitter and Discord APIs to publish sales
   4. is configurable as to the notification messages sent out (e.g. text, image, ...)
   5. has easy instructions for others to add their collection metadata, install the app on a simple server or platform (like Heroku / DigitalOcean / ...)
-- Deadline for the submission of completed projects is 25.04.2022 00:00 ET.
+- Deadline for the submission of completed projects is 01.05.2022 00:00 ET.
 - The developed submissions are to be open sourced under the MIT license.
 - All submissions will be voted on by the PunkScape core team jury as well as all other participating developers / teams..
 - Please choose a common programming language/environment like NodeJS or Python.
