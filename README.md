@@ -13,6 +13,8 @@ All three winning projects will get one scape.
 
 ## Intro
 
+Our [first hackathon](https://github.com/punkscape/01-rarity-analyser-hackathon) was a great success, with five teams building open source rarity analyzer toolkits. We're pleased to finally re-start this initiative and kick off our second round.
+
 Most NFT collections maintain a sales bot for Twitter and Discord. While there are a few open-source solutions out there already, all share one issue: They rely on the [OpenSea API](https://docs.opensea.io/reference/api-overview) to function and don't track sales from other platforms like [Looksrare](https://looksrare.org) or [X2Y2](https://x2y2.io/).
 More Marketplaces are on the horizon.
 
