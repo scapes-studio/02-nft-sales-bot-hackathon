@@ -6,7 +6,7 @@
 
 **Reward Pool: 1.5 ETH & 3 Scapes**
 <small>
-> The winning project will be paid 0.1 ETH. <br>
+> The winning project will be paid 1.0 ETH. <br>
 0.25 ETH goes to the submissions voted for 2nd and 3rd place. <br>
 All three winning projects will get one scape.
 </small>
@@ -39,11 +39,12 @@ Why not circumvent all of this and build a sales bot that watches `Transfer`-Eve
 
 1. The app *has to* keep track of all sales (Transfers with value) on the collection smart contract.
 2. The app *has to* integrate with Discord and post a notification message for each sale
-3. The app *should* integrate with Twitter and post a notification tweet for each sale. The app *may* also integrate with other platforms like Telegram.
+3. The app *should* integrate with Twitter and post a notification tweet for each sale, without triggering their spam filters. The app *may* also integrate with other platforms like Telegram.
 4. The app *has to* work with `ERC721` token contracts and *may* also be compatible with `ERC1155` token contracts.
 5. The app *has to* extract ETH value behind transfers and correctly report it. It also *should* track WETH transfers and *may* track other arbitrary tokens transferred.
-6. There *must* be easy to follow documentation for other developers on how to configure and deploy the bot to a server.
-7. You have to hold a OneDayPunk to take part in the hackathon. They are currently available for ~30$ on [OpenSea](https://opensea.io/collection/onedaypunks). If you would like to take part but economically can't afford to right now, please reach out to jalil#1001 on [Discord](https://discord.gg/Se9V2B4VEZ) and we'll figure something out.
+6. The app *should* enable configuring different messages for existing ane new token holders.
+7. There *must* be easy to follow documentation for other developers on how to configure and deploy the bot to a server.
+8. You have to hold a OneDayPunk to take part in the hackathon. They are currently available for ~30$ on [OpenSea](https://opensea.io/collection/onedaypunks). If you would like to take part but economically can't afford to right now, please reach out to jalil#1001 on [Discord](https://discord.gg/Se9V2B4VEZ) and we'll figure something out.
 
 ## Technical Details
 
