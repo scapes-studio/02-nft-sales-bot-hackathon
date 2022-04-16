@@ -50,6 +50,10 @@ Why not circumvent all of this and build a sales bot that watches `Transfer`-Eve
 - The bot should be able to take in a starting `block` (Ethereum Block), to report on historical sales data.
 - You can use a library like [Ethers JS](https://docs.ethers.io/v5) to watch transfers. You will also need a JSON-RPC Provider – easiest is via an account with [Alchemy](https://www.alchemy.com/) or [Infura](https://infura.io/).
 
+## Brownie Points
+
+- Get creative 😅
+
 ## Sponsors
 
 50% of all Secondary Sales of the [PunkScape NFT](https://opensea.io/collection/punkscapes) are put into a community vault which funds these initiatives. So thank you to all the buyers of scapes!
